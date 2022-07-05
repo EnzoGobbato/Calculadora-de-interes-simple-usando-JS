@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de interes simple</title>
+
+</head>
+<body>
+    <div class="calculadora">
+    <h2>Calculadora de Interes Simple</h2>
+    <label for="Monto">Monto principal</label>
+    <br>
+    <input type="number" placeholder="Ingrese el monto aquí" id="monto">
+    <br>
+    <label for="porcentaje">Porcentaje de interes (en numeros enteros).</label>
+    <br>
+    <input type="number" placeholder="Ingrese el interes aquí" id="interes">
+    <br>
+    <label for="tiempo">Tiempo</label>
+    <br>
+    <input type="number" placeholder="Ingrese el tiempo aquí" id="tiempo">
+    <br>
+    <button onclick="answer()">Calcular</button>
+    <p>Monto principal: <span id="output_1"></span></p>
+    <p>Intereses generados: <span id="output_2"></span></p>
+    <p>Total con intereses: <span id="output_3"></span></p>
+</div>
+    <script src="/index.js"></script>
+</body>
+</html>
